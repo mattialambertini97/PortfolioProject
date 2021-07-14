@@ -34,6 +34,11 @@ body{
   background: rgba(0, 0, 0, 0.7) !important;
 
 }
+.navbar-brand img{
+  height: 2rem;
+
+
+}
 .navbar-nav li{
   padding-right: .7rem;
   display: flex;
@@ -56,13 +61,14 @@ a:visited{
   color:#00b2ee;
 }
 a:hover{
-  color:white;
+  color:cyan;
   text-decoration:none;
 }
 a:active{
   color:#00b2ee;
   text-decoration:none;
 }
+
 .my-5{
   border:1px solid #00b2ee;
 }
@@ -121,6 +127,8 @@ a:active{
 
 
 
+
+/*
   @media (max-width: 768px) {
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
@@ -130,4 +138,4 @@ a:active{
     .navbar:not(.top-nav-collapse) {
       background-color: #24355C;
     }
-  }
+  }*/
