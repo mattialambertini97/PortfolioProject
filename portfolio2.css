@@ -6,14 +6,12 @@ header,
 
 }
 body{
-  /*background-color: #87CEEB;*/
   background-color: white;
   color:black;
 }
 
-
+/*mask*/
 #intro {
-
     background: url("img/panorama2.jpg")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -21,10 +19,12 @@ body{
     background-size: cover;
     opacity:0.9;
 }
+/*logo style*/
 .brand{
   letter-spacing: -10px;
   font-size: 30px;
 }
+/*navbar*/
 .navbar{
   padding: .8rem;
   text-transform: uppercase;
@@ -57,6 +57,21 @@ body{
     text-decoration:underline;
 }
 
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+
+/*heading*/
+.display-4{
+  margin-top: 100px;
+  color:white;
+}
+
+.white-text{
+  color:white;
+}
+
+/*link social*/
 a:visited{
   color:#00b2ee;
 }
@@ -69,37 +84,19 @@ a:active{
   text-decoration:none;
 }
 
+/*hr section style*/
 .my-5{
   border:1px solid #00b2ee;
 }
-.top-nav-collapse {
-    background-color: #24355C;
-  }
 
-
+/*profile image*/
   .profilo{
     border-radius: 180px 180px;
     width: 200px;
     height: 240px;
   }
-  .display-4{
-    margin-top: 100px;
-    color:white;
-  }
 
-  .white-text{
-    color:white;
-  }
-  .mb-5{
-
-    color: #00b2ee;
-    border-radius: 10px;
-
-
-  }
-  .work{
-    border-radius: 50%;
-  }
+/*images about*/
   .fa-code{
     color: #e54d26;
   }
@@ -110,6 +107,20 @@ a:active{
     color: #2163af;
   }
 
+/*section title*/
+  .mb-5{
+    color: #00b2ee;
+    border-radius: 10px;
+  }
+
+  /*work image*/
+  .work{
+    border-radius: 50%;
+  }
+
+
+
+/*Skills*/
 .progress-bar1{
   background-color: #e54d26;
 }
@@ -123,19 +134,21 @@ a:active{
   background-color: #FFB90F;
 }
 
+/*form style*/
+.fa-user{
+  color: #00b2ee;
+}
+.fa-envelope{
+  color: #00b2ee;
+}
+.fa-tag{
+  color: #00b2ee;
+}
 
-
-
-
-
-/*
-  @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
-    }
-  }
-  @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #24355C;
-    }
-  }*/
+/*footer icon */
+.fa-home{
+color: #00b2ee;
+}
+.fa-phone{
+  color: #00b2ee;
+}
